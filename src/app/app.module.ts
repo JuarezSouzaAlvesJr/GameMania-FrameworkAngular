@@ -8,6 +8,8 @@ import { LoginCadastroComponent } from './views/login-cadastro/login-cadastro.co
 import { HeaderComponent } from './views/header/header.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FaleconoscoComponent } from './views/faleconosco/faleconosco.component';
+import { PagProdutoComponent } from './views/pag-produto/pag-produto.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomeComponent,
     LoginCadastroComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FaleconoscoComponent,
+    PagProdutoComponent
   ],
   imports: [
     BrowserModule,
