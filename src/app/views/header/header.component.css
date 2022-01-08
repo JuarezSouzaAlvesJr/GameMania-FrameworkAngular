@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    height: 100px;
+    max-width: 1920px;
+    background-color: #121212;
+    position: fixed;
+    z-index: 3;
+}
+.container-grid {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.cabecalho {
+    width: 95%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 90%;
+    min-width: 123px;
+    max-width: 302px;
+}
+
+.icones {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.icones a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Roboto';
+}
+
+.divBusca {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 100%;
+    
+}
+.caixa {
+    width: 480px;
+    height: 50px;
+    border: 0;
+}
+.txtBusca {
+    float: left;
+    padding-left: 25px;
+    font-size: 24px;
+    border: none;
+}
+.busca {
+    width: 100%;
+    max-width: 90px;
+    height: 50px;
+    background-color: #66D07E;
+    border: 0;
+}
+
+.busca:hover {
+    background-color: #108747;
+}
+
+.lupa {
+    width: 20%;
+}
+.login {
+    max-width: 200px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+
+.iconeLogin {
+    width: 100%;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.login a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.favoritos {
+    width: 100%;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.cesto {
+    width: 100%;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.container-grid-tablet {
+    max-width: 688px;
+    margin: 0 auto;
+}
+
+.header-tablet {
+    display: none;
+    top: 0;
+    height: 100%;
+    max-height: 140px;
+    width: 100%;
+    max-width: 768px;
+    background-color: #121212;
+    position: fixed;
+    z-index: 3;
+}
+
+#txtBusca-tablet {
+    float:left;
+    padding-left:15px;
+    font-size:18px;
+    border:none;
+}
+
+.divBusca-tablet {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 688px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.img-menu {
+    width: 46px;
+    height: 30px;
+}
+
+.caixa-tablet {
+    width: 100%;
+    max-width: 590px;
+    height: 60px;
+    border: 0;
+}
+
+.busca-tablet {
+    width: 100%;
+    max-width: 98px;
+    height: 60px;
+    background-color: #66D07E;
+    border: 0;
+}
