@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from 'src/app/models/user';
 
 @Component({
   selector: 'app-login-cadastro',
@@ -10,6 +11,12 @@ export class LoginCadastroComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  loginModel = new User();
+
+  onSubmit() {
+    console.log(this.loginModel)
   }
 
 }

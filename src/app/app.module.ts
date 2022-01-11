@@ -10,6 +10,7 @@ import { FooterComponent } from './views/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FaleconoscoComponent } from './views/faleconosco/faleconosco.component';
 import { PagProdutoComponent } from './views/pag-produto/pag-produto.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PagProdutoComponent } from './views/pag-produto/pag-produto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
