@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "email": "juarez@email.com",
+      "password": "$2a$10$5KVeZwmPVLctqeHsUoWOneJ86c.WHlaU1xnil9ZaAzKaSHL0/69UW",
+      "nome": "Juarez",
+      "id": 1
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "imagem": "assets/img/produto.png",
+      "descricao": "Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB",
+      "preco": "R$ 3.561,00 à vista",
+      "parcela": "12x de R$ 296,75 sem juros"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/produto.png",
+      "descricao": "Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB",
+      "preco": "R$ 3.561,00 à vista",
+      "parcela": "12x de R$ 296,75 sem juros"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/produto.png",
+      "descricao": "Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB",
+      "preco": "R$ 3.561,00 à vista",
+      "parcela": "12x de R$ 296,75 sem juros"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/produto.png",
+      "descricao": "Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB",
+      "preco": "R$ 3.561,00 à vista",
+      "parcela": "12x de R$ 296,75 sem juros"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/img/produto.png",
+      "descricao": "Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB",
+      "preco": "R$ 3.561,00 à vista",
+      "parcela": "12x de R$ 296,75 sem juros"
+    },
+    {
+      "id": 6,
+      "imagem": "/assets/img/produto.png",
+      "descricao": "Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB",
+      "preco": "R$ 3.561,00 à vista",
+      "parcela": "12x de R$ 296,75 sem juros"
+    },
+    {
+      "id": 7,
+      "imagem": "assets/img/produto.png",
+      "descricao": "Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB",
+      "preco": "R$ 3.561,00 à vista",
+      "parcela": "12x de R$ 296,75 sem juros"
+    },
+    {
+      "id": 8,
+      "imagem": "assets/img/produto.png",
+      "descricao": "Computador T-Home Office TECNOART Intel i3 10100 / DDR4 8GB / SSD 240GB",
+      "preco": "R$ 3.561,00 à vista",
+      "parcela": "12x de R$ 296,75 sem juros"
+    }
+  ]
+}

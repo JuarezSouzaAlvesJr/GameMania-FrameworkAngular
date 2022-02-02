@@ -11,6 +11,10 @@
                 <input id="botao-enviar" type="submit" value="fazer login">
             </form>
             
+            <!-- parágrafo para exibir mensagem de erro caso o usuário erre o email ou a senha -->
+            <p id="mensagem" *ngIf=" mensagem != '' "> {{ mensagem }}</p>
+            <!-- se a mensagem for diferente de vazio, será exibido o conteúdo da variável mensagem -->
+
             <br><br>
             <a href="#">Esqueci meu login</a><br>
             <a href="#">Esqueci minha senha</a>

@@ -113,10 +113,10 @@
                     </section>
                 </div>
                 <div class="col-md-3">
-                    <div class="produto">
-                        <a routerLink="/pagProduto"><img src="assets/img/produto.png" class="img-fluid"
+                    <div *ngFor="let produto of listaProdutos" class="produto">
+                        <a routerLink="/pagProduto"><img [src]=produto.imagem class="img-fluid"
                                 alt="imagem-produto"></a><a routerLink="/pagProduto">Computador T-Home Office TECNOART
-                            Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
+                                    Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
                         <div class="preco"><span>R$ 3.561,00</span> <small> à vista</small></div>
                         <div class="parcela">12x de <span>R$ 296,75</span> <small> sem juros</small></div>
                         <div class="int"><a href="carrinho.html"><button class="comprar">Comprar</button></a><button
@@ -124,93 +124,7 @@
                                     alt="carrinho"></button></div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="produto">
-                        <a routerLink="/pagProduto"><img src="assets/img/produto.png" class="img-fluid"
-                                alt="imagem-produto"></a><a routerLink="/pagProduto">Computador T-Home Office TECNOART
-                            Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
-                        <div class="preco"><span>R$ 3.561,00</span> <small> à vista</small></div>
-                        <div class="parcela">12x de <span>R$ 296,75</span> <small> sem juros</small></div>
-                        <span class="int"><a href="carrinho.html"><button
-                                    class="comprar">Comprar</button></a><button class="carrinho"><img
-                                    src="assets/img/carrinho(40x40).png" class="img-car" alt="carrinho"></button></span>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="produto">
-                        <a routerLink="/pagProduto"><img src="assets/img/produto.png" class="img-fluid"
-                                alt="imagem-produto"></a><a routerLink="/pagProduto">Computador T-Home Office TECNOART
-                            Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
-                        <div class="preco"><span>R$ 3.561,00</span> <small> à vista</small></div>
-                        <div class="parcela">12x de <span>R$ 296,75</span> <small> sem juros</small></div>
-                        <div class="int"><a href="carrinho.html"><button class="comprar">Comprar</button></a><button
-                                class="carrinho"><img src="assets/img/carrinho(40x40).png" class="img-car"
-                                    alt="carrinho"></button></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="produto">
-                        <a routerLink="/pagProduto"><img src="assets/img/produto.png" class="img-fluid"
-                                alt="imagem-produto"></a><a routerLink="/pagProduto">Computador T-Home Office TECNOART
-                            Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
-                        <div class="preco"><span>R$ 3.561,00</span> <small> à vista</small></div>
-                        <div class="parcela">12x de <span>R$ 296,75</span> <small> sem juros</small></div>
-                        <div class="int"><a href="carrinho.html"><button class="comprar">Comprar</button></a><button
-                                class="carrinho"><img src="assets/img/carrinho(40x40).png" class="img-car"
-                                    alt="carrinho"></button></div>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="produto">
-                        <a routerLink="/pagProduto"><img src="assets/img/produto.png" class="img-fluid"
-                                alt="imagem-produto"></a><a routerLink="/pagProduto">Computador T-Home Office TECNOART
-                            Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
-                        <div class="preco"><span>R$ 3.561,00</span> <small> à vista</small></div>
-                        <div class="parcela">12x de <span>R$ 296,75</span> <small> sem juros</small></div>
-                        <div class="int"><a href="carrinho.html"><button class="comprar">Comprar</button></a><button
-                                class="carrinho"><img src="assets/img/carrinho(40x40).png" class="img-car"
-                                    alt="carrinho"></button></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="produto">
-                        <a routerLink="/pagProduto"><img src="assets/img/produto.png" class="img-fluid"
-                                alt="imagem-produto"></a><a routerLink="/pagProduto">Computador T-Home Office TECNOART
-                            Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
-                        <div class="preco"><span>R$ 3.561,00</span> <small> à vista</small></div>
-                        <div class="parcela">12x de <span>R$ 296,75</span> <small> sem juros</small></div>
-                        <span class="int"><a href="carrinho.html"><button
-                                    class="comprar">Comprar</button></a><button class="carrinho"><img
-                                    src="assets/img/carrinho(40x40).png" class="img-car" alt="carrinho"></button></span>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="produto">
-                        <a routerLink="/pagProduto"><img src="assets/img/produto.png" class="img-fluid"
-                                alt="imagem-produto"></a><a routerLink="/pagProduto">Computador T-Home Office TECNOART
-                            Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
-                        <div class="preco"><span>R$ 3.561,00</span> <small> à vista</small></div>
-                        <div class="parcela">12x de <span>R$ 296,75</span> <small> sem juros</small></div>
-                        <div class="int"><a href="carrinho.html"><button class="comprar">Comprar</button></a><button
-                                class="carrinho"><img src="assets/img/carrinho(40x40).png" class="img-car"
-                                    alt="carrinho"></button></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="produto">
-                        <a routerLink="/pagProduto"><img src="assets/img/produto.png" class="img-fluid"
-                                alt="imagem-produto"></a><a routerLink="/pagProduto">Computador T-Home Office TECNOART
-                            Intel i3 10100 / DDR4 8GB / SSD 240GB</a>
-                        <div class="preco"><span>R$ 3.561,00</span> <small> à vista</small></div>
-                        <div class="parcela">12x de <span>R$ 296,75</span> <small> sem juros</small></div>
-                        <div class="int"><a href="carrinho.html"><button class="comprar">Comprar</button></a><button
-                                class="carrinho"><img src="assets/img/carrinho(40x40).png" class="img-car"
-                                    alt="carrinho"></button></div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
